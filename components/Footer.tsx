@@ -16,27 +16,27 @@ import { animateScroll as scroll } from 'react-scroll';
 const icons: SocialMedia[] = [
   {
     Icon: FaBehance,
-    url: 'https://www.linkedin.com/in/martin-hansson-7b4875204/',
+    url: '',
     label: 'LinkedIn',
   },
   {
     Icon: FaLinkedinIn,
-    url: 'https://github.com/Alegherix',
+    url: '',
     label: 'Github',
   },
   {
     Icon: FaInstagram,
-    url: 'https://instagram.com/Alegherix',
+    url: '',
     label: 'Instagram',
   },
   {
     Icon: FaDribbble,
-    url: 'https://codepen.io/alegherix',
+    url: '',
     label: 'Codepen',
   },
   {
     Icon: FaGithub,
-    url: 'https://codepen.io/alegherix',
+    url: '',
     label: 'Codepen',
   },
 ];
