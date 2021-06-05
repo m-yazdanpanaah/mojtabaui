@@ -7,7 +7,7 @@ const Meta: React.FC = () => {
       <link rel="icon" href="/favicon.ico" />
       <meta
         property="og:title"
-        content="Portfolio by Martin Hansson"
+        content="Portfolio by Mojtaba Yazdanpanah"
         key="title"
       />
       <meta
