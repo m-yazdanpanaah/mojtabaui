@@ -1,6 +1,4 @@
 import React from 'react';
-import { SmoothScroll } from './SmoothScroll';
-import Link from 'next/link';
 
 interface NavbarProps {}
 
