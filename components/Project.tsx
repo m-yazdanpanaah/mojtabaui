@@ -8,7 +8,6 @@ interface ProjectProps {
   description: string;
   img: string;
   alt: string;
-  technologies: string[];
   vision?: string;
   github: string;
   href?: string;
@@ -18,7 +17,6 @@ const Project: React.FC<ProjectProps> = ({
   name,
   description,
   img,
-  technologies,
   vision,
   github,
   alt,
@@ -27,9 +25,10 @@ const Project: React.FC<ProjectProps> = ({
   return (
     <>
       <div className="flex gap-8 lg:flex-row">
-        <div className="cursor-pointer flex justify-center w-full h-full transform h-64 bg-blue-400 w-1/5 transition duration-500 hover:scale-125">
+        <div className="flex justify-center w-full h-full transform h-64 bg-blue-400 w-1 transition duration-500 hover:scale-125">
+         <a href={href}>
           <Image
-            className="rounded-2xl flex-1"
+            className="cursor-pointer rounded-2xl flex-1"
             src={img}
             quality={100}
             layout="intrinsic"
@@ -37,6 +36,7 @@ const Project: React.FC<ProjectProps> = ({
             height={600}
             alt={alt}
           />
+         </a>
         </div>
       </div>
     </>

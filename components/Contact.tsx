@@ -22,7 +22,6 @@ const Contact: React.FC<ContactProps> = ({}) => {
   const {
     register,
     handleSubmit,
-    watch,
     errors,
     reset,
   } = useForm<IFormInput>();

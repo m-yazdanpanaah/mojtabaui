@@ -16,20 +16,29 @@ const Portfolio: React.FC<PortfolioProps> = ({}) => {
             <Project
               description="This is a 3D Game written in Three.js where you're a ball exploring the world, jumping over obstacles, and scoring points in 3 different maps, all the way until you reach the diamond at the end of the map."
               vision="The main goal of this project was to further my knowledge with Three.js aswell as exploring other techonologies such as Svelte. Typescript is used all throughout the entire stack to ensure typesafety. Socket.io was also utilized to make the last map a multiplayer map to spice things up even further."
-              name="World Explorer"
+              name="Shoor"
               img="/Shoor.png"
-              alt="Example image of a project"
-              technologies={[
-                'Three.js',
-                'Cannon.js',
-                'Typescript',
-                'Svelte',
-                'Socket.io',
-                'Firestore Database',
-                'Netlify',
-              ]}
+              alt="Shoor"
               github="https://github.com/Alegherix/world_explorer"
-              href="https://worldexploration.netlify.app"
+              href="https://mojtaba-blog.vercel.app/blog/project-case-studies/shoor-case-study"
+            />
+            <Project
+                description="This is a 3D Game written in Three.js where you're a ball exploring the world, jumping over obstacles, and scoring points in 3 different maps, all the way until you reach the diamond at the end of the map."
+                vision="The main goal of this project was to further my knowledge with Three.js aswell as exploring other techonologies such as Svelte. Typescript is used all throughout the entire stack to ensure typesafety. Socket.io was also utilized to make the last map a multiplayer map to spice things up even further."
+                name="Shoor"
+                img="/shoor-imagine.png"
+                alt="Shoor"
+                github="https://github.com/Alegherix/world_explorer"
+                href="https://mojtaba-blog.vercel.app/blog/project-case-studies/shoor-case-study"
+            />
+            <Project
+                description="This is a 3D Game written in Three.js where you're a ball exploring the world, jumping over obstacles, and scoring points in 3 different maps, all the way until you reach the diamond at the end of the map."
+                vision="The main goal of this project was to further my knowledge with Three.js aswell as exploring other techonologies such as Svelte. Typescript is used all throughout the entire stack to ensure typesafety. Socket.io was also utilized to make the last map a multiplayer map to spice things up even further."
+                name="Shoor"
+                img="/shoor-songs.png"
+                alt="Shoor"
+                github="https://github.com/Alegherix/world_explorer"
+                href="https://mojtaba-blog.vercel.app/blog/project-case-studies/shoor-case-study"
             />
 
             <Project
@@ -38,18 +47,26 @@ const Portfolio: React.FC<PortfolioProps> = ({}) => {
               name="Forager"
               img="/Housemart.png"
               alt="Example image of a project"
-              technologies={[
-                'React',
-                'TailwindCSS',
-                'Typescript',
-                'Google Maps API',
-                'Firebase Auth',
-                'Firestore Database',
-                'Google Cloud Storage',
-                'Vercel',
-              ]}
               github="https://github.com/Alegherix/forager"
-              href="https://forager-phi.vercel.app"
+              href="https://mojtaba-blog.vercel.app/blog/project-case-studies/housmart-case-study"
+            />
+            <Project
+                description="This is a project with the purpose of making it easier to track locations of where you've found forages such as mushrooms, berries etc.. whenever you're out in the forrest."
+                vision="The main goal was to make it easy to find your location of wherever you are, easily add the kind of forage you found, aswell as optionally adding images of the location for future reference, everything persisted in the cloud."
+                name="Forager"
+                img="/housmart-green.jpg"
+                alt="Example image of a project"
+                github="https://github.com/Alegherix/forager"
+                href="https://mojtaba-blog.vercel.app/blog/project-case-studies/housmart-case-study"
+            />
+            <Project
+                description="This is a project with the purpose of making it easier to track locations of where you've found forages such as mushrooms, berries etc.. whenever you're out in the forrest."
+                vision="The main goal was to make it easy to find your location of wherever you are, easily add the kind of forage you found, aswell as optionally adding images of the location for future reference, everything persisted in the cloud."
+                name="Forager"
+                img="/housmart-hub.jpg"
+                alt="Example image of a project"
+                github="https://github.com/Alegherix/forager"
+                href="https://mojtaba-blog.vercel.app/blog/project-case-studies/housmart-case-study"
             />
 
             <Project
@@ -58,17 +75,8 @@ const Portfolio: React.FC<PortfolioProps> = ({}) => {
               name="Kul med djur"
               img="/Exper.png"
               alt="Example image of trees from the project"
-              technologies={[
-                'Next.js',
-                'TailwindCSS',
-                'Typescript',
-                'Vercel',
-                'Framer Motion',
-                'Immer',
-                'Google Maps API',
-              ]}
               github="https://github.com/Alegherix/wuip"
-              href="https://wuip.vercel.app"
+              href=""
             />
             {/* <Project
               description="This is a project for being able to safely create an account, add houses to a map, and persist it for other people to see."
@@ -95,16 +103,8 @@ const Portfolio: React.FC<PortfolioProps> = ({}) => {
               name="Gatsby Portfolio"
               img="/Agah.png"
               alt="Example image of a project"
-              technologies={[
-                'Gatsby',
-                'GraphQL',
-                'Jamstack',
-                'Netlify',
-                'SCSS',
-                'Javascript',
-              ]}
               github="https://github.com/Alegherix/Portfolio"
-              href="https://alegherix.netlify.app"
+              href=""
             />
 
             <Project
@@ -112,9 +112,8 @@ const Portfolio: React.FC<PortfolioProps> = ({}) => {
               name="Electric"
               img="/Coach.png"
               alt="Example image of a project"
-              technologies={['HTML', 'CSS', 'Javascript', 'GSAP', 'Barba.js']}
               github="https://github.com/Alegherix/ElectricCar"
-              href="https://yrgoelectric.netlify.app"
+              href=""
             />
           </section>
         </div>
